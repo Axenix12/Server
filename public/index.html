@@ -2,10 +2,52 @@
 <html>
 	<head>
 		<link rel="stylesheet" href="css/style.css" />
+		<script src="js/index.js" defer></script>
 		<title>Hello World</title>
 	</head>
 	<body>
-		<h1>My First Heading</h1>
-		<p>My first paragraph.</p>
+		<header>My First Heading</header>
+		<nav>
+			<ul>
+				<li>
+					<a href="https://google.com">Google</a>
+				</li>
+				<li>
+					<a href="http://localhost:3000/">This Page</a>
+				</li>
+				<li>
+					<a href="http://localhost:3000/blog">Blog Request</a>
+				</li>
+			</ul>
+		</nav>
+		<section>
+			<h1>CSS Stuff</h1>
+			<p>paragraph in section</p>
+			<p class="blog">
+				Generating random paragraphs can be an excellent way for writers to get
+				their creative flow going at the beginning of the day. The writer has no
+				idea what topic the random paragraph will be about when it appears. This
+				forces the writer to use creativity to complete one of three common
+			</p>
+			<p>
+				nias, you striped lawyer too? I was already a blood-sucking parasite.
+				All I needed was a briefcase. Have a great afternoon! Barry, I just got
+				this huge tulip order, and I can't get them anywhere. No problem,
+				Vannie. Just leave it to me. You're a lifesaver, Barry. Oan I help who's
+			</p>
+			<div>
+				<img class="avatar" src="bee.jpeg" alt="bee" width="50" height="50" />
+				<span> Steven Spielberg</span>
+			</div>
+		</section>
+		<form id="form1">
+			<label for="blog">Blog</label>
+			<textarea name="blog-text" id="blog" cols="70" rows="30"></textarea>
+			<label for="author">Author Name</label>
+			<input type="name-text" id="author" name="author" />
+			<input type="submit" value="submit" />
+		</form>
+		<aside>Aside</aside>
+		<footer>Footer</footer>
 	</body>
 </html>

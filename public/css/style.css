@@ -1,9 +1,40 @@
 body {
-	background-color: powderblue;
+	background-color: bisque;
 }
-h1 {
-	color: blue;
+nav {
+	padding: auto;
+	margin: auto;
+}
+header {
+	color: hotpink;
 }
 p {
-	color: red;
+	color: plum;
+}
+article {
+	color: aqua;
+}
+
+ul {
+	text-align: center;
+	list-style-type: none;
+}
+
+li {
+	display: inline;
+}
+
+section > h1 {
+	color: brown;
+	text-align: center;
+}
+@media screen and (min-width: 600px) {
+	img.avatar {
+	}
+}
+img.avatar {
+	border-radius: 55%;
+}
+p.blog {
+	border: 1cap;
 }
